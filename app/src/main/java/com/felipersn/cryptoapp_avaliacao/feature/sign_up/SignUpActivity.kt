@@ -10,10 +10,9 @@ class SignUpActivity : AppCompatActivity() {
 
     companion object {
         fun getIntent(context: Context): Intent {
-            return Intent(context, this::class.java)
+            return Intent(context, SignUpActivity::class.java)
         }
     }
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

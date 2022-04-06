@@ -10,7 +10,7 @@ class HomeActivity : AppCompatActivity() {
 
     companion object {
         fun getIntent(context: Context): Intent {
-            return Intent(context, this::class.java)
+            return Intent(context, HomeActivity::class.java)
         }
     }
 
