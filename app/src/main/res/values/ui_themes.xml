@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ui components themes -->
+    <style name="Theme.CryptoApp.EditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_edit_text</item>
+        <item name="android:textColor">@color/fieldTextColor</item>
+        <item name="android:textColorHint">@color/fieldHintColor</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Used to remove background from textInputLayout and use background from his child -->
+    <style name="Theme.CryptoApp.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="colorOnSurface">@android:color/transparent</item>
+        <item name="hintEnabled">false</item>
+        <item name="errorEnabled">false</item>
+    </style>
+
+    <style name="Theme.CryptoApp.Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/bg_button_accent</item>
+        <item name="android:textColor">@color/onAccentColor</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

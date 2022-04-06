@@ -6,9 +6,8 @@
     <string name="signIn_subtitle">Acompanhe suas moedas favoritas</string>
     <string name="signIn_fieldHint_login">Login</string>
     <string name="signIn_fieldHint_password">Senha</string>
-    <string name="signIn_fieldEmpty">Campo obrigatório</string>
     <string name="signIn_button_enter">Acessar</string>
-    <string name="signIn_button_newAccount">Criar nova conta</string>
+    <string name="signIn_button_signUp">Criar nova conta</string>
 
     <!-- Sign up -->
     <string name="signUp_appBar">Nova conta</string>
@@ -16,7 +15,6 @@
     <string name="signUp_fieldHint_document">CPF</string>
     <string name="signUp_fieldHint_password">Senha</string>
     <string name="signUp_fieldHint_retypePassword">Confirmar senha</string>
-    <string name="signUp_fieldEmpty">Campo obrigatório</string>
     <string name="signUp_button_create">Criar conta</string>
 
     <!-- Home -->
