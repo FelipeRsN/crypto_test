@@ -16,6 +16,7 @@
     <string name="signUp_fieldHint_password">Senha</string>
     <string name="signUp_fieldHint_retypePassword">Confirmar senha</string>
     <string name="signUp_button_create">Criar conta</string>
+    <string name="signUp_result_accountCreated">Conta criada com sucesso!</string>
 
     <!-- Home -->
     <string name="home_appBar">Bem vindo</string>

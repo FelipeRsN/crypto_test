@@ -1,35 +1,31 @@
 package com.felipersn.cryptoapp_avaliacao.feature.sign_in
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
+import com.felipersn.cryptoapp_avaliacao.common.base.BaseAppCompatActivity
 import com.felipersn.cryptoapp_avaliacao.common.extensions.toggleEnabled
 import com.felipersn.cryptoapp_avaliacao.databinding.ActivitySignInBinding
 import com.felipersn.cryptoapp_avaliacao.feature.home.HomeActivity
 import com.felipersn.cryptoapp_avaliacao.feature.sign_up.SignUpActivity
 
-class SignInActivity : AppCompatActivity() {
+class SignInActivity : BaseAppCompatActivity() {
 
-    private lateinit var signInBinding: ActivitySignInBinding
+    private val signInBinding by lazy { ActivitySignInBinding.inflate(layoutInflater) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        signInBinding = ActivitySignInBinding.inflate(layoutInflater)
-        val view = signInBinding.root
-        setContentView(view)
-
-        initView()
+        setContentView(signInBinding.root)
     }
 
-    private fun initView() {
-        setupListeners()
-
+    override fun initView() {
+        super.initView()
         // Ensure that login button starts disabled to force
         // user to fill the fields before click
         checkFieldsAndToggleButton()
     }
 
-    private fun setupListeners() {
+    override fun setupListeners() {
+        super.setupListeners()
         signInBinding.signInEnter.setOnClickListener {
             openHomeActivity()
         }
