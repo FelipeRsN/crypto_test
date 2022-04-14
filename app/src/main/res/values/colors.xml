@@ -20,7 +20,7 @@
     <color name="fieldErrorColor">#FE3232</color>
 
     <!-- Text colors -->
-    <color name="primaryTextColor">#E4E3DB</color>
-    <color name="secondaryTextColor">#C6C8B9</color>
+    <color name="primaryDarkTextColor">#E4E3DB</color>
+    <color name="secondaryDarkTextColor">#C6C8B9</color>
 
 </resources>

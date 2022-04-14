@@ -8,12 +8,16 @@
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/bg_button_transparent.xml" value="0.2495" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/bg_edit_text.xml" value="0.2495" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/ic_back_arrow_rounded_white.xml" value="0.1905" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/ic_favorite_filled_rounded_black.xml" value="0.1905" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/ic_favorite_rounded_outline_black.xml" value="0.1905" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/selector_bg_edit_text.xml" value="0.159" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/state_bg_edit_text.xml" value="0.159" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_coin_detail.xml" value="0.3484375" />
-        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_home.xml" value="0.3625" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_home.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_sign_in.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_sign_up.xml" value="0.2326388888888889" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/list_item_coin.xml" value="0.24097222222222223" />
       </map>
     </option>
   </component>
