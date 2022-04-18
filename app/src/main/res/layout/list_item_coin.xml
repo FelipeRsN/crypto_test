@@ -34,7 +34,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:layout_weight="1f"
+            android:layout_weight="1"
             android:textColor="@color/onSurfaceColor"
             android:textSize="20sp"
             tools:text="(BTC) Bitcoin" />
