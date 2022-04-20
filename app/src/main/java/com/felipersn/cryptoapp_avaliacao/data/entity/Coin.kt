@@ -11,5 +11,6 @@ data class Coin(
     val rank: Int? = null,
     val symbol: String? = null,
     val tags: List<Tag>? = null,
-    val team: List<Team>? = null
+    val team: List<Team>? = null,
+    var isFavorite: Boolean = false,
 ) : Parcelable

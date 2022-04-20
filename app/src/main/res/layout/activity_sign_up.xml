@@ -17,6 +17,7 @@
             style="@style/Theme.CryptoApp.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_back_arrow_rounded_white"
             app:title="@string/signUp_appBar" />
 
     </com.google.android.material.appbar.AppBarLayout>
