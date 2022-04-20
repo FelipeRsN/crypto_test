@@ -14,11 +14,13 @@
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1905" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/selector_bg_edit_text.xml" value="0.159" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/drawable/state_bg_edit_text.xml" value="0.159" />
-        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_coin_detail.xml" value="0.3484375" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_coin_detail.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_home.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_sign_in.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/activity_sign_up.xml" value="0.2326388888888889" />
         <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/list_item_coin.xml" value="0.24097222222222223" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/list_item_tags.xml" value="0.24166666666666667" />
+        <entry key="..\:/Personal/crypto_test/app/src/main/res/layout/list_item_team.xml" value="0.24166666666666667" />
       </map>
     </option>
   </component>

@@ -4,3 +4,8 @@ package com.felipersn.cryptoapp_avaliacao.common.utils
 enum class CoinVisualization {
     ALL, FAVORITE_ONLY
 }
+
+/* Used to send data between activities */
+enum class IntentValues(val get: String) {
+    COIN_DATA("COIN_DATA")
+}
