@@ -25,6 +25,8 @@
     <string name="home_bottomPanel_all">Todos</string>
     <string name="home_bottomPanel_favorites">Apenas favoritos</string>
     <string name="home_signOutDialog_title">Sair</string>
+    <string name="home_action_onFavoriteAdded">%s adicionado aos favoritos</string>
+    <string name="home_action_onFavoriteRemoved">%s removido dos favoritos</string>
     <string name="home_signOutDialog_message">Tem certeza que deseja desconectar?</string>
     <string name="home_signOutDialog_positive">Sair</string>
     <string name="home_signOutDialog_negative">Cancelar</string>

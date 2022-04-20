@@ -23,7 +23,12 @@
     <style name="Theme.CryptoApp.Toolbar" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@color/appBarColor</item>
         <item name="titleTextColor">@color/white</item>
-        <item name="navigationIcon">@drawable/ic_back_arrow_rounded_white</item>
+    </style>
+
+    <style name="Theme.CryptoApp.ClickableTextView" parent="@android:style/Widget.TextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">@drawable/bg_ripple_light</item>
     </style>
 
     <!-- Used to remove background from textInputLayout and use background from his child -->

@@ -2,8 +2,11 @@
 <resources>
     <!-- Neutral colors -->
     <color name="black">#FF000000</color>
+    <color name="black10">#1A000000</color>
+    <color name="black30">#48000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="white10">#1AFFFFFF</color>
+    <color name="white30">#48FFFFFF</color>
 
     <!-- Layout colors -->
     <color name="backgroundColor">#3A3A3A</color>
@@ -20,7 +23,7 @@
     <color name="fieldErrorColor">#FE3232</color>
 
     <!-- Text colors -->
-    <color name="primaryTextColor">#E4E3DB</color>
-    <color name="secondaryTextColor">#C6C8B9</color>
+    <color name="primaryDarkTextColor">#E4E3DB</color>
+    <color name="secondaryDarkTextColor">#C6C8B9</color>
 
 </resources>

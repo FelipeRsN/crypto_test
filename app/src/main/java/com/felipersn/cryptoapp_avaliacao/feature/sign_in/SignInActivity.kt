@@ -19,9 +19,10 @@ class SignInActivity : BaseAppCompatActivity() {
 
     override fun initView() {
         super.initView()
+
         // Ensure that login button starts disabled to force
         // user to fill the fields before click
-        checkFieldsAndToggleButton()
+        //checkFieldsAndToggleButton()
     }
 
     override fun setupListeners() {
