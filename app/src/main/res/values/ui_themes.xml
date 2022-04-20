@@ -38,5 +38,20 @@
         <item name="errorEnabled">false</item>
     </style>
 
+    <style name="Theme.CryptoApp.MaterialDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/Theme.CryptoApp.MaterialDialog.Shape</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Theme.CryptoApp.MaterialDialog.Button</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Theme.CryptoApp.MaterialDialog.Button</item>
+    </style>
+
+    <style name="Theme.CryptoApp.MaterialDialog.Shape">
+        <item name="cornerSize">30dp</item>
+    </style>
+
+    <style name="Theme.CryptoApp.MaterialDialog.Button" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
 
 </resources>

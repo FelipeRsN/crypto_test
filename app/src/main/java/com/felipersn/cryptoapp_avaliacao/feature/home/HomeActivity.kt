@@ -3,6 +3,8 @@ package com.felipersn.cryptoapp_avaliacao.feature.home
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import com.felipersn.cryptoapp_avaliacao.R
 import com.felipersn.cryptoapp_avaliacao.common.base.BaseAppCompatActivity
 import com.felipersn.cryptoapp_avaliacao.common.extensions.*
@@ -88,6 +90,26 @@ class HomeActivity : BaseAppCompatActivity(), CoinListListeners {
         }
 
         toast(toastText)
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_home, menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(menuItem: MenuItem): Boolean {
+        when (menuItem.itemId) {
+            R.id.homeMenu_signOut -> {
+                showSignOutDialog()
+            }
+        }
+        return super.onOptionsItemSelected(menuItem)
+    }
+
+    private fun showSignOutDialog() {
+        provideSignOutDialog {
+            onBackPressed()
+        }.show()
     }
 
 }
