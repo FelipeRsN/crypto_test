@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/teamItem_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/primaryDarkTextColor"
+        android:textSize="14sp"
+        tools:text="Satoshi Nakamoto" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/teamItem_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/primaryDarkTextColor"
+        android:textSize="12sp"
+        tools:text="Founder" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/teamItem_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="4dp"
+        android:alpha="0.5"
+        app:dividerColor="@color/white" />
+
+</LinearLayout>

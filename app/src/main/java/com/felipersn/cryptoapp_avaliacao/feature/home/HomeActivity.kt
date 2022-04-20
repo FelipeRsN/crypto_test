@@ -10,6 +10,7 @@ import com.felipersn.cryptoapp_avaliacao.common.utils.CoinVisualization
 import com.felipersn.cryptoapp_avaliacao.common.utils.JSON_COIN_LIST
 import com.felipersn.cryptoapp_avaliacao.data.entity.Coin
 import com.felipersn.cryptoapp_avaliacao.databinding.ActivityHomeBinding
+import com.felipersn.cryptoapp_avaliacao.feature.detail.CoinDetailActivity
 import com.felipersn.cryptoapp_avaliacao.feature.home.adapter.CoinListAdapter
 import com.felipersn.cryptoapp_avaliacao.feature.home.adapter.CoinListListeners
 import com.google.gson.Gson
@@ -77,7 +78,7 @@ class HomeActivity : BaseAppCompatActivity(), CoinListListeners {
     }
 
     override fun onItemClicked(coin: Coin) {
-        toast("open detail screen with coin ${coin.name}")
+        startActivity(CoinDetailActivity.getIntent(this, coin))
     }
 
     override fun onFavoriteChanged(coinName: String, newFavoriteStatus: Boolean) {

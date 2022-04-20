@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Crypto App - avaliacao</string>
+    <string name="default_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac nibh nunc. Fusce sit amet molestie justo. Suspendisse vitae blandit lorem, sodales ullamcorper justo. Fusce porta, purus a congue vulputate, libero orci faucibus augue, ac feugiat libero massa at elit. Morbi ultrices ligula non arcu tincidunt sodales. Aenean mollis lacinia odio. Etiam euismod tristique nisi, vitae condimentum risus porttitor in. Duis dictum felis facilisis urna blandit consectetur. Nulla lobortis elit nisl, ut pharetra sem vulputate efficitur. Donec eleifend lacus aliquet nibh laoreet, ut pretium odio ultrices. Sed eu leo velit. Vestibulum dolor ex, efficitur id ultrices vel, fermentum posuere augue. Maecenas fermentum dui in lorem viverra, sit amet finibus mauris fermentum. Proin et massa convallis, commodo nibh sed, venenatis ipsum. Pellentesque dignissim eget enim eu tempus.</string>
 
     <!-- Sign in -->
     <string name="signIn_title">Bem vindo ao app crypto</string>
@@ -34,5 +35,6 @@
     <!-- Detail -->
     <string name="detail_tags">Tags</string>
     <string name="detail_team">Time</string>
+    <string name="detail_invalidCoin">Erro ao receber dados da moeda, tente novamente.</string>
 
 </resources>
