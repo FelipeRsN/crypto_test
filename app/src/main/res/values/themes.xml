@@ -10,6 +10,10 @@
         <item name="textInputStyle">@style/Theme.CryptoApp.TextInputLayout</item>
         <item name="editTextStyle">@style/Theme.CryptoApp.EditText</item>
         <item name="buttonStyle">@style/Theme.CryptoApp.Button</item>
+        <item name="materialAlertDialogTheme">@style/Theme.CryptoApp.MaterialDialog</item>
+
+        <!-- Used to change MenuItem textColor -->
+        <item name="actionMenuTextColor">@color/white</item>
     </style>
 
     <!-- Sign in screen theme to create translucent appBar -->

@@ -22,7 +22,7 @@ class SignInActivity : BaseAppCompatActivity() {
 
         // Ensure that login button starts disabled to force
         // user to fill the fields before click
-        //checkFieldsAndToggleButton()
+        checkFieldsAndToggleButton()
     }
 
     override fun setupListeners() {
